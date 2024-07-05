@@ -7,7 +7,7 @@ class Tarefa(models.Model):
     descricao = models.TextField()
     data_criacao = models.DateTimeField(auto_now_add=True)
     concluida = models.BooleanField(default=False)
-    dono = models.ForeignKey(User, on_delete=models.CASCADE)
+    dono = models.ForeignKey(User, related_name='tarefas', on_delete=models.CASCADE)
 
     def __str__(self):
         return self.titulo
