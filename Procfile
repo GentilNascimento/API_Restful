@@ -1,0 +1,1 @@
+web: gunicorn TrilhaInicialBackendjr.wsgi --log-file -  
