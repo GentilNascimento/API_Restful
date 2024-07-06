@@ -3,6 +3,6 @@ __pycache__/
 venv/
 virtualenv/
 .env/
-*.sqlite3
+db.sqlite3
 *.log
 virtual
