@@ -1,1 +1,1 @@
-web: gunicorn trilhabackendjr.wsgi --log-file -
+web: gunicorn trilhabackendjr.wsgi --log-file -  
